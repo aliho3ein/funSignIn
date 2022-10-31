@@ -1,14 +1,12 @@
 const funBtn = document.querySelector(".funBtn");
 const funPass = document.getElementById("funPass");
 const infoFun = document.querySelector(".infoFun");
-let btnPlace = true;
+let btnPlace;
 funBtn.addEventListener("mouseover", () => {
   if (funPass.value.length <= 5) {
-    if (btnPlace) {
-      funBtn.style.marginLeft = "-100px";
-    } else {
-      funBtn.style.marginLeft = "100px";
-    }
+    !btnPlace
+      ? (funBtn.style.marginLeft = "-100px")
+      : (funBtn.style.marginLeft = "100px");
     btnPlace = !btnPlace;
     infoFun.textContent = funMassage[Math.trunc(Math.random(0, 1) * 9)];
   } else {
