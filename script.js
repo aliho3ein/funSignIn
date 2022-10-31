@@ -20,12 +20,12 @@ funBtn.addEventListener("mouseover", () => {
 let funMassage = [
   "Try Again :))",
   "you are too slow :D",
-  "Nop :D",
+  "Nop :P",
   "Do ur best ...",
   "You Got this bro try again :)",
   "Catch me :x",
   "No way :O",
   "Do it Again ;)",
-  "What was That",
-  "Don't Cry :D",
+  "What was That :)",
+  "Don't Cry :P",
 ];
